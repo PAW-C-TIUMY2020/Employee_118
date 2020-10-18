@@ -17,6 +17,7 @@ namespace Employee.Migrations
                     EmpCode = table.Column<string>(type: "varchar(10)", nullable: true),
                     Position = table.Column<string>(type: "varchar(100)", nullable: true),
                     OfficeLocation = table.Column<string>(type: "varchar(100)", nullable: true)
+
                 },
                 constraints: table =>
                 {
