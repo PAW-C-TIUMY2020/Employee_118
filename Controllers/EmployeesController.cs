@@ -43,9 +43,9 @@ namespace Employee.Controllers
         }
 
         // GET: Employees/Create
-        public IActionResult Create()
+        public IActionResult AddOrEdit()
         {
-            return View();
+            return View(new Employees());
         }
 
         // POST: Employees/Create
